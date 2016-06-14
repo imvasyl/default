@@ -1,0 +1,272 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:900);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
+
+html { 
+
+text-rendering: optimizeLegibility !important;
+
+-webkit-font-smoothing: antialiased !important;
+
+-moz-osx-font-smoothing: grayscale;
+
+}
+
+i[class*="icon"] {
+  margin-right:8px;
+  line-height: 1;
+}
+
+.image {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/hello@2x.png");
+}
+
+article,section,summary{display:block}
+body{margin:0}a{background:transparent}
+.center{max-width:80em;margin:0 auto;position:relative}
+.row{margin:0 .5em;padding:2% 1em 0;overflow:hidden;height:1%;*zoom:1;min-height:1%}
+.clearfix{height:0;clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.fg6,.fg8,.fg12{margin:0 8% 0;padding:0;float:left;position:relative}
+.fg12{width:96%}.fg8{width:72.66%}.fg6{width:46%}
+.push12{margin-left:100%}
+.push8{margin-left:68.66%}
+.push6{margin-left:52%}
+.fg-no-gutter{padding:0 3.5%;margin-top:0;margin-bottom:0}
+.fg-no-gutter > [class*="fg"]{margin:0;padding:0;float:left;position:relative}
+.fg-no-gutter img{max-width:100%;max-height:100%}
+.fg-no-gutter .fg12{width:100%}.fg-no-gutter .fg8{width:66.66%}.fg-no-gutter .fg6{width:50%}.fg-no-gutter 
+.push12{margin-left:100%}.fg-no-gutter .push8{margin-left:66.66%}.fg-no-gutter .push6{margin-left:50%}.fg-no-gutter
+.fg-no-mobile{display:block !important}.fg-no-desktop{display:none !important}@media screen and (max-width: 36.5em ){.row{padding:0 1em;margin:0}.fg1,.fg2{width:46%;margin-bottom:1em}.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9,.fg10,.fg11,.fg12{margin:0 2% 1em;padding:0;width:96%}.fg-no-gutter > [class*="fg"]{width:50%}.fg-no-mobile{display:none !important}.fg-no-desktop{display:block !important}}
+
+body { padding: 16px;
+border: 8px solid #222222;
+  background: #fff;
+  background:linear-gradient(to right, #fff, #fff, #fff, #fff);
+  background-size: 600% 100%;
+  position:relative;
+  z-index:1;
+  -webkit-animation:HeroBG 20s ease infinite;
+  -moz-animation:HeroBG 20s ease infinite;
+  -o-animation:HeroBG 20s ease infinite;
+  animation:HeroBG 20s ease infinite
+}
+
+@-webkit-keyframes 
+HeroBG {
+  0%{background-position:0 0}
+  50%{background-position:100% 0}
+  100%{background-position:0 0}
+  }
+
+@-moz-keyframes 
+HeroBG{
+  
+0%{background-position:0 0}
+50%{background-position:100% 0}
+100%{background-position:0 0}
+
+}
+
+@-o-keyframes HeroBG
+{
+
+0%{background-position:0 0}
+50%{background-position:100% 0}
+100%{background-position:0 0}
+
+}
+
+@keyframes HeroBG
+{
+  0%{background-position:0 0}
+  50%{background-position:100% 0}
+  100%{background-position:0 0}
+}
+
+
+.row {
+
+    -ms-transform: rotate(-2.5deg); /* IE 9 */
+    -webkit-transform: rotate(-2.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2.5deg);
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', Arial, sans-serif !important;
+  font-weight: 600;
+  border-bottom: 3px solid blue;
+
+}
+
+a:hover {
+  color: white;
+  background-color: blue;
+  border-bottom: 3px solid blue;
+}
+
+
+h1 {color: white;
+  font-size:5.1em;
+  margin:0.45em 0;
+  text-align: left;
+  letter-spacing: 0.00em;
+  line-height: 1.6em;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+::selection {
+    color: blue;}
+
+.fg12 {
+	margin-left: 60px;
+  
+}
+
+.fg8 {
+  color: #222222;
+  margin-left: 60px;
+  margin-right: 10px;
+	font-size: 30px !important;
+	letter-spacing: -0.00em;
+  font-family: "Source Sans Pro", sans-serif !important; 
+	font-weight: 400;
+  line-height: 44px;
+	text-align: left;
+}
+
+.fg6 {margin-bottom: 60px;
+  font-size: 12px !important;
+  letter-spacing: -0.000em;
+  color: #222222;
+  font-family: "Source Sans Pro", sans-serif !important;
+  text-align: left;
+  
+}
+
+.icon {
+  margin-left: 20px;
+          }
+
+.label {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+ font-size: 12px !important;
+  letter-spacing: -0.000em;
+  color: #222222;
+  font-family: "Source Sans Pro", Arial, sans-serif !important;
+  text-align: right;}
+
+
+}
+.fg-no-gutter > [class*="fg"] {
+	height: auto;
+	background: none;
+}
+
+
+/* ======================================= 
+   media queries
+   ======================================= */
+
+
+/* tablet size */   
+@media screen and (max-width: 48em ) {
+	
+	/* css */
+	
+}   
+    
+/* smartphone size */
+@media screen and (max-width: 568px ) {
+
+.row{
+    
+    -ms-transform: rotate(-0.0deg); /* IE 9 */
+    -webkit-transform: rotate(-0.0deg); /* Chrome, Safari, Opera */
+    transform: rotate(-0.0deg);
+}
+
+  body { 
+  padding: 0px;
+  border: 6px solid #222222;
+ 
+   
+}
+
+
+
+.image {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 30 0 20 20px;
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/hello@2x.png");
+}
+
+h1 {font-size: 3.5em;
+  margin: 0.65em 0 0.15em ;
+  text-align: left;
+  position:relative;
+  color: white;
+  line-height: 1.6em;
+  letter-spacing: 0.00em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fg12 {
+  margin-left: 10px;
+  
+}
+
+.fg8 {
+  margin-left: 10px;
+  font-size: 27px !important;
+  letter-spacing: -0.00em;
+  color: #222222;
+  text-align: justify;
+  font-family: "Source Sans Pro", Arial, sans-serif !important; 
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+.fg6 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 12px !important;
+  letter-spacing: -0.000em;
+  color: #222222;
+  font-family: "Source Sans Pro", Arial, sans-serif !important;
+  text-align: left;
+  
+}
+
+.icon { margin-left: 26px;
+  margin-bottom: 10px;
+          }
+
+.label {
+  right: 26px;
+  bottom: 17px;
+ font-size: 13px !important;
+  letter-spacing: -0.000em;
+  color: #222222;
+  font-family: "Source Sans Pro", Arial, sans-serif !important;
+  text-align: right;}
+
+}
