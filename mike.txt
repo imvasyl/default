@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Mike is amaaaaaaazing! multipled enternity
+=======
+Mike is amaaaaaaazing! branch1
+>>>>>>> branch1
